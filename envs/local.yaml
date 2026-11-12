@@ -1,0 +1,13 @@
+services:
+  user:
+    base_url: http://localhost:8081
+  application:
+    base_url: http://localhost:8082
+  account:
+    base_url: http://localhost:8083
+
+http_timeout: 10s
+
+eventually:
+  timeout: 30s
+  interval: 1s

@@ -1,0 +1,14 @@
+# TODO: 実際の接続先に置き換える
+services:
+  user:
+    base_url: https://user.stg.example.com
+  application:
+    base_url: https://application.stg.example.com
+  account:
+    base_url: https://account.stg.example.com
+
+http_timeout: 10s
+
+eventually:
+  timeout: 60s
+  interval: 2s
